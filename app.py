@@ -7,9 +7,9 @@ st.set_page_config(
     layout="centered"
 )
 
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2, col3 = st.columns([0.3, 2, 0.3])
 with col2:
-    st.image("logo.png", width=200)
+    st.image("logo.png", width=400)
 
 st.markdown("<p style='text-align: center; color: gray;'>ChatBot de Atención al Cliente</p>", unsafe_allow_html=True)
 
