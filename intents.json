@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["Hola", "Buenos días", "Buenas", "Hola!", "¿Qué tal?", "Hey"],
+      "responses": ["¡Hola! 👋 Bienvenido a nuestra tienda online NAVARROTEX. ¿En qué puedo ayudarte?", "Hola! 😊 ¿Quieres ver nuestros croptops en sus 4 colores?"]
+    },
+    {
+      "tag": "catalogo",
+      "patterns": ["¿Qué modelos tienen?", "Catálogo", "¿Qué venden?", "Modelos", "Estilos"],
+      "responses": ["Tenemos Croptops basicos, unicolor disponibles.", "Tenemos disponibles croptops estilo ombliguero, son unicolor, perfectos para estampados en DTF", "\n\n¿Cuál te interesa?"]
+    },
+    {
+      "tag": "precio",
+      "patterns": ["¿Cuánto cuesta?", "Precio", "Costo", "¿Cuál es el precio?", "Cuánto valen?"],
+      "responses": ["Croptop por unidad tiene un costo de 5$.\n Tenemos actualmente una promoción de 15 croptops por tan solo 50$.", "actualmente tenemos una promocion de 15 croptops por 50$ \n\n Que cantidad deseas llevar exactamente?"]
+    },
+    {
+      "tag": "colores",
+      "patterns": ["¿Qué colores tienen?", "Colores disponibles", "¿De qué color?", "Colores"],
+      "responses": ["Disponibles en:\n⚫ Negro\n⚪ Blanco\n🌸 Palo de Rosa\n🍃 Verde Menta. \n\n¿Cuál prefieres?"]
+    },
+    {
+      "tag": "envio",
+      "patterns": ["tienda", "Envíos", "Delivery", "¿tienen tienda?", "¿donde se retira?", "¿cuanto vale el  envio?"],
+      "responses": ["📦 Realizamos envios de Lunes a Viernes de 9:00am a 11:00 y de 2:00pm a 5:00pm; Sabados y Domingos se retira en nuestro punto oficial en tinaquillo II.\n🚚 Envío gratis en compras de 10 o más croptops.\nPara 1 A 9 croptops: $1 de envío."]
+    },
+    {
+      "tag": "tallas",
+      "patterns": ["¿Qué tallas tienen?", "Disponibles en", "Talla", "¿Hay mi talla?"],
+      "responses": ["Disponemos los croptops solo en talle Unico", "Los croptops vienen solo en talle unico"]
+    },
+    {
+      "tag": "pago",
+      "patterns": ["¿Cómo se paga?", "Métodos de pago", "¿Aceptan tarjeta?", "Formas de pago", "bolivares", "aceptan bolivares", "pago movil", "aceptan pago movil?", "pesos colombianos", "pesos", "aceptan pesos?", "a cuanto reciben el dolar"],
+      "responses": ["Aceptamos:\n Transferencias/pago movil (consultar tasa) \n💰 Dolar/Pesos efectivo\n📱 USDT\n\n¿Cuál prefieres?"]
+    },
+    {
+      "tag": "devolucion",
+      "patterns": ["¿Puedo devolver?", "Cambios", "No me gusta", "Política de devoluciones"],
+      "responses": ["No! \n Una vez realizada la entrega las prendas no tienen cambio"]
+    },
+    {
+      "tag": "Ubicacion",
+      "patterns": ["tienda", "ubicados", "ubicacion", "puedo pasar", "donde"],
+      "responses": ["Por el momento no tenemos tienda fisica 😊 pero consulta por nuestros envios y costos para mayor informacion"]
+    },
+    {
+      "tag": "adios",
+      "patterns": ["Adiós", "Chao", "Hasta luego", "Bye", "Gracias"],
+      "responses": ["¡Gracias por escribirnos! 😊 Si tienes dudas, vuelve a escribir"]
+    }
+]
+}
