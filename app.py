@@ -3,14 +3,15 @@ from chatbot import ChatBotCroptops
 
 st.set_page_config(
     page_title="NAVARROTEX ChatBot",
-    page_icon="👕",
+    page_icon="logo.png",
     layout="centered"
 )
 
-st.markdown("""
-<h1 style='text-align: center; color: #667eea;'>👕 NAVARROTEX</h1>
-<p style='text-align: center; color: gray;'>ChatBot de Atención al Cliente</p>
-""", unsafe_allow_html=True)
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image("logo.png", width=200)
+
+st.markdown("<p style='text-align: center; color: gray;'>ChatBot de Atención al Cliente</p>", unsafe_allow_html=True)
 
 if 'chatbot' not in st.session_state:
     st.session_state.chatbot = ChatBotCroptops('intents.json')
